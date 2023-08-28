@@ -1,0 +1,6 @@
+alert("Calculadora de punto de equilibrio necesita algunos datos")
+let cFijo = window.prompt("Ingrese su costo fijo")
+let precio = window.prompt("Ingrese el precio de venta")
+let cVarible =window.prompt("Ingrese su costo variable")
+let resultado = cFijo / (precio-cVarible)
+alert("Usted debe vender "+resultado+" productos para alcanzar el punto de equilibrio")
